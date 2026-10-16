@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+runtime/
+research/
+backups/
+*.log
+*.log.*
+*.pid
+*.zip
+*.sha256.txt
+manifest.json
+installed.json
+position.json
+account_aliases.local.json
+build/
+dist/
+.env

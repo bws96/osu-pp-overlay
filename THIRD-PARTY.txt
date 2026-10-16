@@ -1,0 +1,26 @@
+﻿Bundled unmodified third-party runtimes (personal offline transfer package):
+
+CPython 3.11.9 (x64): runtime/python/LICENSE.txt
+Source: https://www.python.org/downloads/release/python-3119/
+The packaged standard library is a subset of the installed standard library.
+No third-party site-packages or user Python configuration is included.
+
+Node.js 24.12.0 (x64): NODE-LICENSE.txt (including dependencies)
+Source: https://github.com/nodejs/node/tree/v24.12.0
+Binary: https://nodejs.org/dist/v24.12.0/win-x64/node.exe
+
+Tosu 4.26.2: TOSU-LICENSE.txt (LGPL v3), GPL-3.0.txt
+Source: https://github.com/tosuapp/tosu/tree/v4.26.2
+Release: https://github.com/tosuapp/tosu/releases/tag/v4.26.2
+Binary is unmodified and may be replaced in runtime/tosu-4.26.2.
+bootstrap.py checks the bundled release hash; change its pinned hash when intentionally replacing the version.
+
+Tosu native in-game overlay: included as installed by official tosu.
+Electron/Chromium notices: runtime/tosu-4.26.2/game-overlay/LICENSE.electron.txt
+and LICENSES.chromium.html.
+Source: https://github.com/tosuapp/tosu-ingame-overlay
+
+The pp calculator is provided by official tosu (lazer-calculator-prebuilt).
+Source: https://github.com/tosuapp/lazer-calculator
+Calculation worker and overlay application source files are included in this package.
+This application is not endorsed by osu!, tosu, Python or Node.js.

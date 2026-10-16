@@ -1,0 +1,20 @@
+﻿<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>예상 기록</title><style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:transparent;pointer-events:none}
+#row{display:flex;align-items:baseline;gap:.32em;white-space:nowrap;color:#fff;font:600 30px/1.25 "Segoe UI","Malgun Gothic",sans-serif;text-shadow:0 1px 3px #000,0 0 5px #000;visibility:hidden}
+#row[data-visible="true"]{visibility:visible}.caption{color:#c9e3ff;font-size:.83em}.item{display:flex;gap:.25em;align-items:baseline}.accuracy{color:#ddd;font-size:.8em}.pp{font-variant-numeric:tabular-nums}.last .pp{color:#a7f2d1}.unit{font-size:.7em;color:#ddd}#mods{font-size:.65em;color:#c9e3ff}#unranked{font-size:.65em;color:#ffcf9a}
+#personal{display:flex;align-items:baseline;gap:.22em;margin-left:.2em;padding-left:.42em;border-left:1px solid #8394a8;color:#ffdc9c}#personal[hidden]{display:none}.personal-label{font-size:.72em}#personal-mods{font-size:.6em}#row{width:max-content;transform-origin:left top}
+</style></head><body>
+<div id="row"><span class="caption" hidden></span><span id="mods"></span>
+<span class="item"><span class="accuracy">95%</span><span class="pp" id="pp95">—</span></span>
+<span class="item"><span class="accuracy">97%</span><span class="pp" id="pp97">—</span></span>
+<span class="item"><span class="accuracy">99%</span><span class="pp" id="pp99">—</span></span>
+<span class="item last"><span class="accuracy">100%</span><span class="pp" id="pp100">—</span></span>
+<span id="unranked"></span><span id="personal" hidden><span class="personal-label">내 최고</span><span class="pp" id="personal-pp"></span><span id="personal-mods"></span></span></div>
+<script src="logic.js?v=4"></script><script src="display.js?v=4"></script>
+</body></html>
+
+
+
+
